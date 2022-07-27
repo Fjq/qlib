@@ -66,7 +66,7 @@ task:
             metric: loss
             loss: mse
             base_model: LSTM
-            model_path: "benchmarks/LSTM/mlruns/1/703f84247df046eba813544dc7ef2fd0/artifacts/params.pkl"
+            model_path: "benchmarks/LSTM/csi300_lstm_ts.pkl"
             GPU: 0
     dataset:
         class: TSDatasetH
